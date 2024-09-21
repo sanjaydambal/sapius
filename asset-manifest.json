@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sapius/static/css/main.c5d283c1.css",
+    "main.js": "/sapius/static/js/main.d4e8c90f.js",
+    "static/js/453.d848f4b0.chunk.js": "/sapius/static/js/453.d848f4b0.chunk.js",
+    "static/media/logo.svg": "/sapius/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/sapius/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sapius/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sapius/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sapius/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/sapius/index.html",
+    "main.c5d283c1.css.map": "/sapius/static/css/main.c5d283c1.css.map",
+    "main.d4e8c90f.js.map": "/sapius/static/js/main.d4e8c90f.js.map",
+    "453.d848f4b0.chunk.js.map": "/sapius/static/js/453.d848f4b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5d283c1.css",
+    "static/js/main.d4e8c90f.js"
+  ]
+}
