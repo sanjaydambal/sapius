@@ -40,7 +40,7 @@ const TeamAccordion = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-10 bg-white shadow-lg rounded-lg w-4/5">
+    <div className="max-w-full mx-auto mt-10 bg-white shadow-lg rounded-lg w-4/5">
       <Accordion
         title="Dee Choy CHIEF FINANCIAL OFFICER"
         imageUrl="/assets/Dee.jpeg"
