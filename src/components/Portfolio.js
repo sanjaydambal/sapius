@@ -3,53 +3,49 @@ import Slider from "react-slick";
 
 
 const images = [
-  { url: "/assets/Minh.jpeg", description: (
-    <>
-      <p>Dr. Minh Duong-van</p>
-      <p>CHIEF TECHNOLOGY OFFICER</p>
-      <p>With a PhD in quantum physics from Cornell University. Dr. Minh specializes in quantum field and chaos theory.</p>
-    </>
-  ) },
-  { url: "/assets/May.jpeg",  description: (
-    <>
-      <p>May Siksik, PhD</p>
-      <p>CEO</p>
-      <p>20+ years in tech with executive & strategic partnership roles, current CEO Canadian Innovation network</p>
-    </>
-  ) },
-  { url: "/assets/Robert.jpeg", description: (
-    <>
-      <p>Dr. Robert Scott MD.</p>
-      <p>CHIEF CLINICAL OFFICER</p>
-      <p>27+ years in medical practice, informatics research and education Developed consumer-centric diagnostic tools, enhanced patient</p>
-    </>
-  ) },
-  { url: "/assets/Ray.jpg", description: (
-    <>
-      <p>Ray Simkus, MD</p>
-      <p>CHIEF MEDICAL OFFICER</p>
-      <p>45 years as a primary care physician, 30+ in medical informatics
-
-Consultant for Canada Health Infoway, BC Ministry of Health pro </p>
-    </>
-  ) },
-  { url: "/assets/kiran.png", description: (
-    <>
-      <p>Kiran Chandrashekhar</p>
-      <p>DIRECTOR OF ENGINEERING</p>
-      <p>2Over 15 years of diverse experience in the tech industry across different roles.
-</p>
-    </>
-  ) },
-  { url: "/assets/Arun.jpeg", description: (
-    <>
-      <p>May Siksik, PhD</p>
-      <p>CEO</p>
-      <p>20+ years in tech with executive & strategic partnership roles, current CEO Canadian Innovation network</p>
-    </>
-  ) },
-];
-
+    { url: `${process.env.PUBLIC_URL}/assets/Minh.jpeg`, description: (
+      <>
+        <p>Dr. Minh Duong-van</p>
+        <p>CHIEF TECHNOLOGY OFFICER</p>
+        <p>With a PhD in quantum physics from Cornell University. Dr. Minh specializes in quantum field and chaos theory.</p>
+      </>
+    ) },
+    { url: `${process.env.PUBLIC_URL}/assets/May.jpeg`, description: (
+      <>
+        <p>May Siksik, PhD</p>
+        <p>CEO</p>
+        <p>20+ years in tech with executive & strategic partnership roles, current CEO Canadian Innovation network</p>
+      </>
+    ) },
+    { url: `${process.env.PUBLIC_URL}/assets/Robert.jpeg`, description: (
+      <>
+        <p>Dr. Robert Scott MD.</p>
+        <p>CHIEF CLINICAL OFFICER</p>
+        <p>27+ years in medical practice, informatics research and education Developed consumer-centric diagnostic tools, enhanced patient</p>
+      </>
+    ) },
+    { url: `${process.env.PUBLIC_URL}/assets/Ray.jpg`, description: (
+      <>
+        <p>Ray Simkus, MD</p>
+        <p>CHIEF MEDICAL OFFICER</p>
+        <p>45 years as a primary care physician, 30+ in medical informatics. Consultant for Canada Health Infoway, BC Ministry of Health pro </p>
+      </>
+    ) },
+    { url: `${process.env.PUBLIC_URL}/assets/kiran.png`, description: (
+      <>
+        <p>Kiran Chandrashekhar</p>
+        <p>DIRECTOR OF ENGINEERING</p>
+        <p>Over 15 years of diverse experience in the tech industry across different roles.</p>
+      </>
+    ) },
+    { url: `${process.env.PUBLIC_URL}/assets/Arun.jpeg`, description: (
+      <>
+        <p>May Siksik, PhD</p>
+        <p>CEO</p>
+        <p>20+ years in tech with executive & strategic partnership roles, current CEO Canadian Innovation network</p>
+      </>
+    ) },
+  ];
 const Portfolio = () => {
   // Slider settings
   const settings = {

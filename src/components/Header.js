@@ -8,7 +8,8 @@ const Header = () => {
             {/* Logo */}
             <div className="text-2xl font-bold text-blue-600">
   <a href="/">
-    <img src="/assets/sapius_logo.png" alt="Sapius Logo" className="h-8 w-auto" />
+  <img src={`${process.env.PUBLIC_URL}/assets/sapius_logo.png`} alt="Sapius Logo" className="h-8 w-auto" />
+
   </a>
 </div>
 

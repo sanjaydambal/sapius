@@ -7,7 +7,7 @@ const Story = () => {
       
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="/assets/about.png"
+           src={`${process.env.PUBLIC_URL}/assets/about.png`}
             alt="Team Meeting"
             className="rounded-lg shadow-lg"
             style={{ width: '375px', height: '600px',marginLeft:'200px' }}
