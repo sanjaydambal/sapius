@@ -5,6 +5,8 @@ import Story from './components/Story';
 import Portfolio from './components/Portfolio';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Accordion from './components/Accordion';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
    <Header/>
    <Story/>
    <Portfolio/>
+   <Accordion/>
+   <Footer/>
     </div>
   );
 }
