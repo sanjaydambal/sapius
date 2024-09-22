@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const Accordion = ({ title, children, imageUrl, isOpen, onClick }) => {
   return (
     <div className="border-b border-gray-200">
@@ -31,7 +30,6 @@ const Accordion = ({ title, children, imageUrl, isOpen, onClick }) => {
   );
 };
 
-
 const TeamAccordion = () => {
   const [activeAccordion, setActiveAccordion] = useState(null);
 
@@ -40,10 +38,12 @@ const TeamAccordion = () => {
   };
 
   return (
-    <div className="max-w-full mx-auto mt-10 bg-white shadow-lg rounded-lg w-4/5">
+    <div className="max-w-full mx-auto mt-24 bg-white shadow-lg rounded-lg w-4/5" style={{
+      background: 'linear-gradient(180deg, #F7F9FB 5.36%, rgba(247, 249, 251, 0) 86.86%)'
+    }}>
       <Accordion
         title="Dee Choy CHIEF FINANCIAL OFFICER"
-        imageUrl="/assets/Dee.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/Dee.jpeg`}
         isOpen={activeAccordion === 0}
         onClick={() => handleAccordionClick(0)}
       >
@@ -53,7 +53,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Dr. Ray Simkus CHIEF MEDICAL OFFICER"
-        imageUrl="/assets/Ray.jpg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/Ray.jpg`}
         isOpen={activeAccordion === 1}
         onClick={() => handleAccordionClick(1)}
       >
@@ -63,7 +63,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Dr. Eva Idanwekhai SENIOR MEDICAL ADVISER"
-        imageUrl="/assets/Eva.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/Eva.jpeg`}
         isOpen={activeAccordion === 2}
         onClick={() => handleAccordionClick(2)}
       >
@@ -73,7 +73,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Gary Bizo DIRECTOR OF MARKETING"
-        imageUrl="/assets/gary.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/gary.jpeg`}
         isOpen={activeAccordion === 3}
         onClick={() => handleAccordionClick(3)}
       >
@@ -86,7 +86,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Scott Addison DIRECTOR OF SALES"
-        imageUrl="/assets/scott.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/scott.jpeg`}
         isOpen={activeAccordion === 4}
         onClick={() => handleAccordionClick(4)}
       >
@@ -96,7 +96,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Kiran Chandrashekhar DIRECTOR OF ENGINEERING"
-        imageUrl="/assets/kiran.png"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/kiran.png`}
         isOpen={activeAccordion === 5}
         onClick={() => handleAccordionClick(5)}
       >
@@ -106,7 +106,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Arun Chand BUSINESS ADVISER"
-        imageUrl="/assets/Arun.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/Arun.jpeg`}
         isOpen={activeAccordion === 6}
         onClick={() => handleAccordionClick(6)}
       >
@@ -117,7 +117,7 @@ const TeamAccordion = () => {
         </Accordion>
       <Accordion
         title="Dr. Ted Robinson MD BUSINESS ADVISER"
-        imageUrl="/assets/ted.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/ted.jpeg`}
         isOpen={activeAccordion === 7}
         onClick={() => handleAccordionClick(7)}
       >
@@ -127,7 +127,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Austin Duong-van SOFTWARE ARCHITECT"
-        imageUrl="/assets/austin.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/austin.jpeg`}
         isOpen={activeAccordion === 8}
         onClick={() => handleAccordionClick(8)}
       >
@@ -137,7 +137,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Dr. Darren Warburton EDITOR IN CHIEF"
-        imageUrl="/assets/Darren.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/Darren.jpeg`}
         isOpen={activeAccordion === 9}
         onClick={() => handleAccordionClick(9)}
       >
@@ -147,7 +147,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Dr. Jack Taunton MSc. MD EDITOR PRIMARY PREVENTION"
-        imageUrl="/assets/jack.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/jack.jpeg`}
         isOpen={activeAccordion === 10}
         onClick={() => handleAccordionClick(10)}
       >
@@ -157,7 +157,7 @@ const TeamAccordion = () => {
       </Accordion>
       <Accordion
         title="Dr. Sandra Cortina MD EDITOR OBESITY"
-        imageUrl="/assets/sandra.jpeg"
+        imageUrl={`${process.env.PUBLIC_URL}/assets/sandra.jpeg`}
         isOpen={activeAccordion === 11}
         onClick={() => handleAccordionClick(11)}
       >
@@ -170,4 +170,3 @@ const TeamAccordion = () => {
 };
 
 export default TeamAccordion;
-
