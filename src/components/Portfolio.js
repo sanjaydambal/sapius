@@ -82,8 +82,8 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="container mx-auto  px-4" style={{
-      background: 'linear-gradient(180deg, #F6FBFC 5.36%, rgba(247, 249, 251, 0) 86.86%)'
+    <div className="container mx-auto  px-4 " style={{
+     backgroundColor:'#F6FBFC',marginBottom: '-95px'
     }}>
       <h2 className="text-3xl font-bold text-left mb-8">Our Team</h2>
       <Slider {...settings}>

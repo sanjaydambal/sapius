@@ -38,9 +38,9 @@ const TeamAccordion = () => {
   };
 
   return (
-    <div className="max-w-full mx-auto mt-24 bg-white shadow-lg rounded-lg w-4/5" style={{
-      background: 'linear-gradient(180deg, #F6FBFC 5.36%, rgba(247, 249, 251, 0) 86.86%)'
-    }}>
+    <div className="container mx-auto px-4 " style={{backgroundColor:"#F6FBFC"}}
+  >
+    <div className="max-w-full mx-auto mt-24  shadow-lg rounded-lg w-4/5" >
       <Accordion
         title="Dee Choy CHIEF FINANCIAL OFFICER"
         imageUrl={`${process.env.PUBLIC_URL}/assets/Dee.jpeg`}
@@ -165,6 +165,7 @@ const TeamAccordion = () => {
         <p>MD EDITOR OBESITY</p>
         <p>Leads content development on obesity prevention and treatment, advocating for healthy lifestyle choices.</p>
       </Accordion>
+    </div>
     </div>
   );
 };

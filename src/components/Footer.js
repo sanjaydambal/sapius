@@ -3,7 +3,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 py-8 mt-24 w-full">
+    <footer className="bg-gray-100 py-8 w-full">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-start flex-col">
           <a href="/">
