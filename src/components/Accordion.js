@@ -38,7 +38,7 @@ const TeamAccordion = () => {
   };
 
   return (
-    <div style={{backgroundColor:"#F6FBFC",marginTop:'-32px'}}>
+    <div style={{backgroundColor:"#F6FBFC",marginTop:'-32px',paddingBottom:'24px'}}>
     <div className="container mx-auto px-4 " 
   >
     </div> 
