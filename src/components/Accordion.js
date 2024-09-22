@@ -39,7 +39,7 @@ const TeamAccordion = () => {
 
   return (
     <div className="max-w-full mx-auto mt-24 bg-white shadow-lg rounded-lg w-4/5" style={{
-      background: 'linear-gradient(180deg, #F7F9FB 5.36%, rgba(247, 249, 251, 0) 86.86%)'
+      background: 'linear-gradient(180deg, #F6FBFC 5.36%, rgba(247, 249, 251, 0) 86.86%)'
     }}>
       <Accordion
         title="Dee Choy CHIEF FINANCIAL OFFICER"
