@@ -38,9 +38,11 @@ const TeamAccordion = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 " style={{backgroundColor:"#F6FBFC"}}
+    <div style={{backgroundColor:"#F6FBFC",marginTop:'-32px'}}>
+    <div className="container mx-auto px-4 " 
   >
-    <div className="max-w-full mx-auto mt-24  shadow-lg rounded-lg w-4/5" >
+    </div> 
+    <div className="max-w-full mx-auto mt-8  shadow-lg rounded-lg w-4/5" >
       <Accordion
         title="Dee Choy CHIEF FINANCIAL OFFICER"
         imageUrl={`${process.env.PUBLIC_URL}/assets/Dee.jpeg`}

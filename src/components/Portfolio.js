@@ -50,6 +50,11 @@ const Portfolio = () => {
   // Slider settings
   const settings = {
     dots: true,
+    appendDots: dots => (
+      <div>
+        <ul style={{ margin: "0px", padding: "0px" }}> {dots} </ul>
+      </div>
+    ),
     infinite: true,
     speed: 500,
     slidesToShow: 4, // Show 4 images at once
@@ -82,9 +87,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="container mx-auto   " style={{
-     backgroundColor:'#F6FBFC',marginBottom: '-95px'
-    }}>
+    <div className="container mx-auto py-8" style={{ backgroundColor: '#F6FBFC' }}>
       <h2 className="text-3xl font-bold text-left mb-8">Our Team</h2>
       <Slider {...settings}>
         {images.map((image, index) => (
@@ -94,12 +97,15 @@ const Portfolio = () => {
               alt={`Slide ${index + 1}`}
               className="w-full h-66 object-cover rounded-lg shadow-lg" 
             />
-            <p className="text-left mt-4 h-24 ">{image.description}</p>
+            <div className="text-left mt-4">
+              {image.description}
+            </div>
           </div>
         ))}
       </Slider>
     </div>
   );
+  
 };
 
 export default Portfolio;
