@@ -1,60 +1,56 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
       <div className="container py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-600">
-          <a href="/">
+          <Link to="/">
             <img
               src={`${process.env.PUBLIC_URL}/assets/sapius_logo.png`}
               alt="Sapius Logo"
               className="h-8 w-auto"
             />
-          </a>
+          </Link>
         </div>
 
         {/* Navigation Links */}
         <nav>
           <ul className="flex space-x-6">
             <li>
-              <a href="/" className="text-gray-600 hover:text-blue-600">
+              <Link to="/" className="text-gray-600 hover:text-blue-600">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="text-gray-600 hover:text-blue-600">
+              <Link to="/about" className="text-gray-600 hover:text-blue-600">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/consumers"
+              <Link to="/consumers"
                 className=" bg-[#001339] text-gray-600 hover:text-blue-600"
               >
                 Consumers
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/doctors"
+              <Link to="/doctors"
                 className="text-gray-600 hover:text-blue-600"
               >
                 Doctors
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/enterprises"
+              <Link to="/enterprises"
                 className="text-gray-600 hover:text-blue-600"
               >
                 Enterprises
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/login"
+              <Link to="/login"
                 className="text-white text-center font-semibold text-[18px]"
                 style={{
                   fontFamily: "Metropolis, sans-serif",
@@ -71,7 +67,7 @@ const Header = () => {
                 }}
               >
                 Login
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

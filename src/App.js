@@ -7,9 +7,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Accordion from './components/Accordion';
 import Footer from './components/Footer'
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
    <Header/>
    <Story/>
@@ -17,6 +19,7 @@ function App() {
    <Accordion/>
    <Footer/>
     </div>
+    </Router>
   );
 }
 
