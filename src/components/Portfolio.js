@@ -82,7 +82,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="container mx-auto  px-4 " style={{
+    <div className="container mx-auto   " style={{
      backgroundColor:'#F6FBFC',marginBottom: '-95px'
     }}>
       <h2 className="text-3xl font-bold text-left mb-8">Our Team</h2>
