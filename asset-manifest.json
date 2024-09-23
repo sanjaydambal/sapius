@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sapius/static/css/main.ab91231f.css",
-    "main.js": "/sapius/static/js/main.6c54f5c5.js",
+    "main.js": "/sapius/static/js/main.4d327354.js",
     "static/js/453.d848f4b0.chunk.js": "/sapius/static/js/453.d848f4b0.chunk.js",
     "static/media/logo.svg": "/sapius/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/slick.svg": "/sapius/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "static/media/slick.woff": "/sapius/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sapius/index.html",
     "main.ab91231f.css.map": "/sapius/static/css/main.ab91231f.css.map",
-    "main.6c54f5c5.js.map": "/sapius/static/js/main.6c54f5c5.js.map",
+    "main.4d327354.js.map": "/sapius/static/js/main.4d327354.js.map",
     "453.d848f4b0.chunk.js.map": "/sapius/static/js/453.d848f4b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab91231f.css",
-    "static/js/main.6c54f5c5.js"
+    "static/js/main.4d327354.js"
   ]
 }
