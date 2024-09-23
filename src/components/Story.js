@@ -43,10 +43,10 @@ const Story = () => {
           bottom: 0,
           zIndex: 1,
           clipPath: 'polygon(0 100%, 100% 100%, 0 0)',
-          display: 'none',
-          '@media (min-width: 768px)': {
-            display: 'block',
-          },
+          // display: 'none',
+          // '@media (min-width: 768px)': {
+          //   display: 'block',
+          // },
         }}
       />
     </div>

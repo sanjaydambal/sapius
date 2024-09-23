@@ -40,8 +40,8 @@ const images = [
     ) },
     { url: `${process.env.PUBLIC_URL}/assets/Arun.jpeg`, description: (
       <>
-        <p>May Siksik, PhD</p>
-        <p>CEO</p>
+        <p>Arun Chand</p>
+        <p>BUSINESS ADVISER</p>
         <p>20+ years in tech with executive & strategic partnership roles, current CEO Canadian Innovation network</p>
       </>
     ) },
